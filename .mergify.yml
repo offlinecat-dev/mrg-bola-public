@@ -1,1 +1,4 @@
-extends: mrg-bola-test
+queue_rules:
+  - name: bola-default
+    merge_conditions:
+      - check-success = ci
